@@ -3,34 +3,34 @@
   "trials": [
     {
       "start_xy_m": [
-        -0.32,
-        0.3
+        -0.3,
+        0.45
       ],
       "final_xy_m": [
         [
-          -0.12138702102477793,
-          0.458079134833931
+          -0.0009464768910037833,
+          0.30112206234746847
         ],
         [
-          -0.12138701754375517,
-          0.45807911880055313
+          -0.0009464638350101141,
+          0.3011220074528887
         ],
         [
-          -0.12138701762992873,
-          0.45807911386492345
+          -0.0009465098152711545,
+          0.30112201859208304
         ],
         [
-          -0.12138702392093238,
-          0.45807913099024017
+          -0.0009464460168772919,
+          0.30112209107154686
         ]
       ],
-      "max_target_error_mm": 2.369308221752194,
-      "max_tilt_deg": 0.012664680043884895,
-      "max_penetration_mm": 0.17266139069837724,
+      "max_target_error_mm": 1.4679402016799243,
+      "max_tilt_deg": 0.02528792696446133,
+      "max_penetration_mm": 0.32795344600941556,
       "passed": true,
-      "wall_seconds": 91.16976029199941,
+      "wall_seconds": 281.64101704099994,
       "scope": "Four independent rigid cups with the Level 3 shell/rim geometry and mass. Radial wall compliance and air model disabled; panels follow prescribed poses.",
-      "full_duration_s": 118.59999999999852,
+      "full_duration_s": 216.60000000000062,
       "tool_handling": "IK motion and idealized kinematic attachments; no physical grip retention validation",
       "sampled_forbidden_contact_count": 0,
       "sampled_violations": [],
@@ -38,69 +38,69 @@
     },
     {
       "start_xy_m": [
-        -0.22,
+        0.3,
+        0.45
+      ],
+      "final_xy_m": [
+        [
+          0.0003365827082389185,
+          0.30112282239791494
+        ],
+        [
+          0.00033659332047064047,
+          0.3011228096854841
+        ],
+        [
+          0.0003366174583848489,
+          0.3011228453991125
+        ],
+        [
+          0.00033656047857614363,
+          0.3011228154870417
+        ]
+      ],
+      "max_target_error_mm": 1.1722171742461351,
+      "max_tilt_deg": 0.027358299307370017,
+      "max_penetration_mm": 0.3265371088922789,
+      "passed": true,
+      "wall_seconds": 279.5926997080005,
+      "scope": "Four independent rigid cups with the Level 3 shell/rim geometry and mass. Radial wall compliance and air model disabled; panels follow prescribed poses.",
+      "full_duration_s": 216.60000000000062,
+      "tool_handling": "IK motion and idealized kinematic attachments; no physical grip retention validation",
+      "sampled_forbidden_contact_count": 0,
+      "sampled_violations": [],
+      "robot_policy_uses_cup_pose": false
+    },
+    {
+      "start_xy_m": [
+        0.0,
         0.38
       ],
       "final_xy_m": [
         [
-          -0.12139323814709348,
-          0.4580802558664368
+          -0.0009458465841046987,
+          0.3017878113532567
         ],
         [
-          -0.12139324311918771,
-          0.4580802571380734
+          -0.0009458452622413059,
+          0.30178777831801296
         ],
         [
-          -0.12139329491502358,
-          0.458080241409738
+          -0.0009458308383632497,
+          0.3017877617661929
         ],
         [
-          -0.12139324024983796,
-          0.45808026067586566
+          -0.0009458612757851528,
+          0.3017878273870597
         ]
       ],
-      "max_target_error_mm": 2.372075834604646,
-      "max_tilt_deg": 0.012033794281291537,
-      "max_penetration_mm": 0.1630658955494022,
+      "max_target_error_mm": 2.0226171953562453,
+      "max_tilt_deg": 0.02162632915198922,
+      "max_penetration_mm": 0.3232403873586944,
       "passed": true,
-      "wall_seconds": 86.97897216700039,
+      "wall_seconds": 272.56409333300144,
       "scope": "Four independent rigid cups with the Level 3 shell/rim geometry and mass. Radial wall compliance and air model disabled; panels follow prescribed poses.",
-      "full_duration_s": 118.59999999999852,
-      "tool_handling": "IK motion and idealized kinematic attachments; no physical grip retention validation",
-      "sampled_forbidden_contact_count": 0,
-      "sampled_violations": [],
-      "robot_policy_uses_cup_pose": false
-    },
-    {
-      "start_xy_m": [
-        -0.12,
-        0.46
-      ],
-      "final_xy_m": [
-        [
-          -0.12000005963929265,
-          0.4599997280494346
-        ],
-        [
-          -0.12000005761501341,
-          0.4599997152516247
-        ],
-        [
-          -0.12000007690754975,
-          0.4599997167660528
-        ],
-        [
-          -0.12000006457277808,
-          0.4599997338274187
-        ]
-      ],
-      "max_target_error_mm": 0.00029348976145561397,
-      "max_tilt_deg": 0.001886632871036943,
-      "max_penetration_mm": 0.030064495490654274,
-      "passed": true,
-      "wall_seconds": 80.01190041600057,
-      "scope": "Four independent rigid cups with the Level 3 shell/rim geometry and mass. Radial wall compliance and air model disabled; panels follow prescribed poses.",
-      "full_duration_s": 118.59999999999852,
+      "full_duration_s": 216.60000000000062,
       "tool_handling": "IK motion and idealized kinematic attachments; no physical grip retention validation",
       "sampled_forbidden_contact_count": 0,
       "sampled_violations": [],
