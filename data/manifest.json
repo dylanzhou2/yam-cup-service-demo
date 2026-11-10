@@ -1,0 +1,69 @@
+{
+  "level1": {
+    "source": "ring-water-full-example.json",
+    "scope": "Full upright ring pickup, top/bottom handle grip, seven-second pour and serve/release. Geometry-checked kinematic references; idealized grasps and scalar flow, not physical grip validation.",
+    "duration_s": 82.94153721233522,
+    "frames": 860,
+    "sha256": "e5441144411dd762da0d6308725ee3b88b4919dc202bb1341a279e823b92e4ac"
+  },
+  "level2": {
+    "source": "level2-service-example.json",
+    "scope": "Two inverted nested cups, measured default layout, dry contact physics with exact simulated object feedback and estimated cup materials/leakage. No liquid mass/slosh or hardware validation; no claim for four cups, unknown height, arbitrary layouts or camera-free execution.",
+    "duration_s": 296.6000249435417,
+    "frames": 876,
+    "sha256": "4405920d51eeae85cc97ac083c08d6181308d90b955186d85a874b2c68711e77"
+  },
+  "level3": {
+    "source": "work/height_acquisition/four_cup_probe",
+    "scope": "Current-model motor-feedback height probe; starts above known XY. Full service is not validated.",
+    "duration_s": 7.060000000093926,
+    "frames": 354,
+    "sha256": "fe6cb1b794cdcc8bfa2946daf89ed629d0a65cbf538567ce23bd9d16350587cc"
+  },
+  "level3-2": {
+    "source": "work/height_acquisition/presentation_2/four_cup_probe",
+    "scope": "Motor-feedback height probe; cup count is test setup only, not a controller input. Full service is not validated.",
+    "duration_s": 9.099999999985462,
+    "frames": 456,
+    "sha256": "776dfa196e1b0426d249da9a1d510d30c821c280a3772eb138901dc8f4a43e02",
+    "measured_height_mm": 124.58460635398033,
+    "height_error_mm": -0.01429777707687152
+  },
+  "level3-3": {
+    "source": "work/height_acquisition/presentation_3/four_cup_probe",
+    "scope": "Motor-feedback height probe; cup count is test setup only, not a controller input. Full service is not validated.",
+    "duration_s": 8.07999999998784,
+    "frames": 405,
+    "sha256": "44d14e36fb517007451523f8d29cb6d0821f01e03fed16ebb2fec9f04969ee5c",
+    "measured_height_mm": 134.81939190259402,
+    "height_error_mm": -0.023314681786290592
+  },
+  "level4-0": {
+    "source": "work/studio_jobs/3f4605691cfb4871aff65a7ab9552247",
+    "scope": "Contact-physics yaw homing and seven-second dispensing, followed by collision-checked serving with an idealized grasp. Fixed validated layout; cup starts below nozzle. Water is scalar flow, without liquid mass or sloshing. No hardware validation.",
+    "duration_s": 96.03790241682384,
+    "frames": 870,
+    "sha256": "5d9b866584da0a38fca72b59a584d641b3e9413065dd365ae3e57703b31692cf"
+  },
+  "level4-286": {
+    "source": "work/studio_jobs/fbe552f8e7d94d978dc0ad670a735541",
+    "scope": "Contact-physics yaw homing and seven-second dispensing, followed by collision-checked serving with an idealized grasp. Fixed validated layout; cup starts below nozzle. Water is scalar flow, without liquid mass or sloshing. No hardware validation.",
+    "duration_s": 110.83790240576346,
+    "frames": 877,
+    "sha256": "5eba0acdae15216fbb3c82a42824f23d8217e796087aeb12ab8fb4961b590d4e"
+  },
+  "level4-180": {
+    "source": "work/level4_yaw/guarded_fixed_180 + dispense + serve_180",
+    "scope": "Physical homing and dispensing; collision-checked idealized-grasp serving.",
+    "duration_s": 96.03790241684455,
+    "frames": 866,
+    "sha256": "3e945d59250391788760ed8cff705a9bf3da9c89daaeeb8d57ab2b15adeb9677"
+  },
+  "level4-full": {
+    "source": "work/level4_yaw/full_service_prefix + existing level4-0 recording",
+    "scope": "Composite replay: collision-checked idealized-grasp pickup/placement followed by recorded physical homing and pouring, then idealized-grasp serving. Not one continuous contact-physics trial.",
+    "duration_s": 115.32536270715187,
+    "frames": 881,
+    "sha256": "1d18c3595aeab69f8ce9f89789f8b8ac8639dd939169081ad48bd83eccec59ad"
+  }
+}
