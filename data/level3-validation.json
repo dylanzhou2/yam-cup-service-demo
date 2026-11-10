@@ -21,11 +21,47 @@
     "sha256": "cb317c21617c91663525b564d4fff7d5e9f432c46e108bc31a6c81f3d6925335"
   },
   "level3-full": {
-    "scope": "Native four-cup extraction, then an IK-retargeted illustrative service continuation. Extra-cup support and grasps after the boundary are idealized; collision/contact dynamics are not validated.",
-    "source": "work/level3_presentation/build.py",
-    "duration_s": 273.00592495449786,
-    "frames": 1438,
-    "sha256": "7350292b1f7207fed78420cbe6ecd4fb19446f81c096c6e8ea72b7b03999aa73"
+    "source": "work/level3_presentation/add_probe.py",
+    "scope": "Motor-feedback height probe, followed by a height-adjusted planned pickup, extraction, handoff, dispensing, and serving continuation. Not a continuous physics validation.",
+    "duration_s": 296.0658999545917,
+    "frames": 1648,
+    "sha256": "6e64c3de91d4001db8345ae40cdcb9471ed219e560828b0604092a128e1048e9",
+    "height_probe": {
+      "probe": {
+        "passed": true,
+        "failure": null,
+        "calibration": false,
+        "detected": true,
+        "estimated_top_z_m": 0.14506831784877172,
+        "oracle_top_z_m": 0.14507623716618537,
+        "error_mm": -0.007919317413646043,
+        "grasp_target": {
+          "cup_top_z_m": 0.14506831784877172,
+          "left_grasp_site_xyz_m": [
+            -0.25,
+            0.48,
+            0.15076831784877173
+          ],
+          "grasp_site_offset_from_top_m": 0.0057,
+          "uses_cup_count": false
+        },
+        "controller_reads_cup_state": false,
+        "prepositioned_fixture": true,
+        "continuous_probe_then_pickup_validated": false,
+        "full_level3_validated": false,
+        "maximum_penetration_mm": 0.05955806318839324,
+        "maximum_wall_deflection_mm": 0.07732568234613002,
+        "motor_torque_noise_std_Nm": 0.002,
+        "simulated_seconds": 7.069000000094225,
+        "wall_seconds": 554.0747632500716,
+        "source_scene": "/Users/dylanzhou/Documents/Codex/2026-11-06/i-ve-been-trying-to-manually/work/cup_count_sweep/aligned_fresh_4/scene.xml"
+      },
+      "grasp_adjustment_mm": -0.7316821512282634,
+      "reference_height_m": 0.14579999999999999,
+      "ik_count": 878,
+      "duration_s": 296.0658999545917,
+      "full_physics_validated": false
+    }
   },
   "full_level3_physics_validated": false,
   "controller_reference": "Intended: calibrated cup-to-left-gripper transform. Recorded trials use simulator object feedback; force profiles vary."

@@ -95,11 +95,11 @@
     "sha256": "cb317c21617c91663525b564d4fff7d5e9f432c46e108bc31a6c81f3d6925335"
   },
   "level3-full": {
-    "scope": "Native four-cup extraction, then an IK-retargeted illustrative service continuation. Extra-cup support and grasps after the boundary are idealized; collision/contact dynamics are not validated.",
-    "source": "work/level3_presentation/build.py",
-    "duration_s": 273.00592495449786,
-    "frames": 1438,
-    "sha256": "7350292b1f7207fed78420cbe6ecd4fb19446f81c096c6e8ea72b7b03999aa73"
+    "source": "work/level3_presentation/add_probe.py",
+    "scope": "Motor-feedback height probe, followed by a height-adjusted planned pickup, extraction, handoff, dispensing, and serving continuation. Not a continuous physics validation.",
+    "duration_s": 296.0658999545917,
+    "frames": 1648,
+    "sha256": "6e64c3de91d4001db8345ae40cdcb9471ed219e560828b0604092a128e1048e9"
   },
   "level5-1": {
     "source": "work/level5_symmetric/full_states_0.json",
@@ -121,5 +121,12 @@
     "duration_s": 216.60000000000062,
     "frames": 1186,
     "sha256": "d53e4291cae612af4d6280f43b5562507bd10b7b973dd4c7fc19cbaf501dc2c6"
+  },
+  "level5-full": {
+    "source": "work/level5_service/build.py",
+    "scope": "Recorded contact sweep followed by planned stack pickup, extraction, handoff, dispensing, and serving. Tool and cup attachments are idealized; not a continuous contact-physics validation.",
+    "duration_s": 501.9567749540226,
+    "frames": 1882,
+    "sha256": "90d937d8138636cd751ef6e97acef2cf9ef4371472d632de119ad074ee347b41"
   }
 }
