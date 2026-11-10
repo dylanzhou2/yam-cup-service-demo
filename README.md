@@ -6,7 +6,7 @@ Interactive 3D simulation demonstrations for Levels 1–5. Open the GitHub Pages
 
 - Level 1: full kinematic sequence, idealized grasps.
 - Level 2: recorded two-cup dry contact-physics service, using exact simulated object feedback.
-- Level 3: current-model motor-feedback height probe only; full service is not validated.
+- Level 3: separate motor-feedback height probes and recorded two-, three-, and four-cup extraction trials. The combined four-cup replay continues with an explicitly labeled IK-retargeted, idealized-grasp service sequence. Full contact-physics service and a common count-agnostic controller remain unvalidated.
 - Level 4: contact-physics homing and pouring followed by collision-checked serving with an idealized grasp.
 
 - Level 5: experimental two-panel sweep without a ring. Ten initial positions reached within 10 mm (worst 6.6 mm). Rigid compound stack and prescribed panel motion; IK arm replay has sampled penetration checks. Starts with tools already held. Tool grasp/docking, individual cup slip, and full service are not validated.

@@ -8,3 +8,5 @@
 main > .demo-section:first-child{padding-top:36px}
 
 .method h2,.four-heading h2,.full-four h2,.closing h2{font-size:clamp(25px,2.2vw,32px);line-height:1.25;letter-spacing:-.6px}
+
+.level3-block{min-width:0}.level3-block>p{max-width:960px;font-size:14px;line-height:1.8;color:var(--muted)}.level3-block .angle-label strong{font-size:27px}.level3-block>.viewer-slot{margin-top:22px}.level3-block .evidence-note{font-size:11px}.planned-active .viewer-top{background:#fff2df}.planned-active .viewer-top span{color:#865719;font-weight:700}.timeline button.planned-chunk{background:#e8d2ae}.timeline button.planned-chunk.active{background:var(--orange)}

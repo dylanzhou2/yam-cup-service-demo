@@ -1,0 +1,32 @@
+{
+  "level3-extract-2": {
+    "scope": "Native pickup and extraction; estimated rolled rims and aligned surrogate pads. Trial-specific force profiles; exact simulator state is used. Not a count-agnostic full service validation.",
+    "source": "work/cup_count_sweep/aligned_fresh_2",
+    "duration_s": 76.00002498974892,
+    "frames": 669,
+    "sha256": "5a4ec38a22c4ccab72ccba7076284be87c71203c1013b6aea9a07bf38f5b46b3"
+  },
+  "level3-extract-3": {
+    "scope": "Native pickup and extraction; estimated rolled rims and aligned surrogate pads. Trial-specific force profiles; exact simulator state is used. Not a count-agnostic full service validation.",
+    "source": "work/cup_count_sweep/aligned_fresh_3",
+    "duration_s": 77.02002498949386,
+    "frames": 667,
+    "sha256": "2545ccc2f18346160e2917e32121cdc3affc81a6e6eb9561a6d66d942dea6a39"
+  },
+  "level3-extract-4": {
+    "scope": "Four-cup pickup, horizontal presentation, internal expansion grip and separation in this fixed simulated layout. Left holds one; right holds three. Full four-cup handoff, dispensing and serving are not validated by this record. Exact simulated cup poses and estimated contact/air properties are used. No hardware validation. Replay uses the continuous screening chain; the fine-step acquisition and extraction passed separately.",
+    "source": "outputs/yam_studio/four-cup-separation-example.json",
+    "duration_s": 44.82592500120718,
+    "frames": 1411,
+    "sha256": "cb317c21617c91663525b564d4fff7d5e9f432c46e108bc31a6c81f3d6925335"
+  },
+  "level3-full": {
+    "scope": "Native four-cup extraction, then an IK-retargeted illustrative service continuation. Extra-cup support and grasps after the boundary are idealized; collision/contact dynamics are not validated.",
+    "source": "work/level3_presentation/build.py",
+    "duration_s": 273.00592495449786,
+    "frames": 1438,
+    "sha256": "7350292b1f7207fed78420cbe6ecd4fb19446f81c096c6e8ea72b7b03999aa73"
+  },
+  "full_level3_physics_validated": false,
+  "controller_reference": "Intended: calibrated cup-to-left-gripper transform. Recorded trials use simulator object feedback; force profiles vary."
+}
