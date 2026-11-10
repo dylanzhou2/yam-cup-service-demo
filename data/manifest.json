@@ -60,11 +60,11 @@
     "sha256": "3e945d59250391788760ed8cff705a9bf3da9c89daaeeb8d57ab2b15adeb9677"
   },
   "level4-full": {
-    "source": "work/level4_yaw/full_service_prefix + existing level4-0 recording",
+    "source": "work/level4_yaw/full_service_prefix + recorded level4-180 homing, dispensing, and serving",
     "scope": "Composite replay: collision-checked idealized-grasp pickup/placement followed by recorded physical homing and pouring, then idealized-grasp serving. Not one continuous contact-physics trial.",
-    "duration_s": 115.32536270715187,
-    "frames": 881,
-    "sha256": "1d18c3595aeab69f8ce9f89789f8b8ac8639dd939169081ad48bd83eccec59ad"
+    "duration_s": 115.32536270717259,
+    "frames": 882,
+    "sha256": "6783ba7ea6066fbad8f8eea41e9aca177e06532417f8aeb7d9f5273e4a9986f7"
   },
   "level5": {
     "source": "work/level5_sweep/arm_bundle.json",
