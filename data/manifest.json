@@ -128,5 +128,26 @@
     "duration_s": 501.9567749540226,
     "frames": 1882,
     "sha256": "90d937d8138636cd751ef6e97acef2cf9ef4371472d632de119ad074ee347b41"
+  },
+  "level5-arms-1": {
+    "source": "work/level5_arm_sweep/trial_0.json",
+    "scope": "Prescribed robot joint path, native gripper collision geometry, four independent rigid cups; no panels, no attachments, no cup-position feedback. Tested lateral lane only; not a two-dimensional workspace search.",
+    "duration_s": 47.0,
+    "frames": 804,
+    "sha256": "19cf3a00bceb68e61ec38f688f01ae68334052d4b716020fd96288d0c466b439"
+  },
+  "level5-arms-2": {
+    "source": "work/level5_arm_sweep/trial_1.json",
+    "scope": "Prescribed robot joint path, native gripper collision geometry, four independent rigid cups; no panels, no attachments, no cup-position feedback. Tested lateral lane only; not a two-dimensional workspace search.",
+    "duration_s": 47.0,
+    "frames": 804,
+    "sha256": "315ad6915923d1b2c745aa329b760d3d8e625777def5c3f6f1823207c877bcfd"
+  },
+  "level5-arms-3": {
+    "source": "work/level5_arm_sweep/trial_2.json",
+    "scope": "Prescribed robot joint path, native gripper collision geometry, four independent rigid cups; no panels, no attachments, no cup-position feedback. Tested lateral lane only; not a two-dimensional workspace search.",
+    "duration_s": 47.0,
+    "frames": 804,
+    "sha256": "e2d8822aeae651083b73f766f54543044b3157f7a50870d548348aabe3576eed"
   }
 }

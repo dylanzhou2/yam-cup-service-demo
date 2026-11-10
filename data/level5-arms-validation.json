@@ -1,0 +1,111 @@
+{
+  "trials": [
+    {
+      "start_xy_m": [
+        -0.15,
+        0.34
+      ],
+      "target_xy_m": [
+        0,
+        0.34
+      ],
+      "final_xy_m": [
+        [
+          -0.0020240624887635414,
+          0.33983741381301324
+        ],
+        [
+          -0.0020240835427558757,
+          0.33983741675687984
+        ],
+        [
+          -0.0020240508918994934,
+          0.3398374987547066
+        ],
+        [
+          -0.002024097894809144,
+          0.3398373941934606
+        ]
+      ],
+      "max_error_mm": 2.0306188554455873,
+      "max_tilt_deg": 0.01377244821664726,
+      "max_cup_penetration_mm": 0.02761389507338597,
+      "other_contacts_mm": {},
+      "passed": true,
+      "wall_seconds": 80.92426304199944,
+      "scope": "Prescribed robot joint path, native gripper collision geometry, four independent rigid cups; no panels, no attachments, no cup-position feedback."
+    },
+    {
+      "start_xy_m": [
+        0.15,
+        0.34
+      ],
+      "target_xy_m": [
+        0,
+        0.34
+      ],
+      "final_xy_m": [
+        [
+          0.001994646678318559,
+          0.33983921513968873
+        ],
+        [
+          0.001994651782963755,
+          0.33983912943463335
+        ],
+        [
+          0.001994654613409063,
+          0.33983926001190096
+        ],
+        [
+          0.001994652739892879,
+          0.33983921037945924
+        ]
+      ],
+      "max_error_mm": 2.0011284501705235,
+      "max_tilt_deg": 0.017795526324094414,
+      "max_cup_penetration_mm": 0.02238732634885269,
+      "other_contacts_mm": {},
+      "passed": true,
+      "wall_seconds": 80.44690487499975,
+      "scope": "Prescribed robot joint path, native gripper collision geometry, four independent rigid cups; no panels, no attachments, no cup-position feedback."
+    },
+    {
+      "start_xy_m": [
+        0.06,
+        0.34
+      ],
+      "target_xy_m": [
+        0,
+        0.34
+      ],
+      "final_xy_m": [
+        [
+          0.001986943481709453,
+          0.33994562716531673
+        ],
+        [
+          0.0019869258718037187,
+          0.33994556768468126
+        ],
+        [
+          0.001986951589425208,
+          0.3399455934054718
+        ],
+        [
+          0.0019869058567239836,
+          0.3399456316730079
+        ]
+      ],
+      "max_error_mm": 1.9876963289817482,
+      "max_tilt_deg": 0.01537558570033876,
+      "max_cup_penetration_mm": 0.02183837842168585,
+      "other_contacts_mm": {},
+      "passed": true,
+      "wall_seconds": 77.29310587500004,
+      "scope": "Prescribed robot joint path, native gripper collision geometry, four independent rigid cups; no panels, no attachments, no cup-position feedback."
+    }
+  ],
+  "same_joint_path_all_starts": true,
+  "search_scope": "Three lateral starts at y=0.34m; not arbitrary XY placement."
+}
