@@ -100,5 +100,26 @@
     "duration_s": 273.00592495449786,
     "frames": 1438,
     "sha256": "7350292b1f7207fed78420cbe6ecd4fb19446f81c096c6e8ea72b7b03999aa73"
+  },
+  "level5-1": {
+    "source": "work/level5_full/full_states_0.json",
+    "scope": "Four independent rigid cups with the Level 3 shell/rim geometry and mass. Radial wall compliance and air model disabled; panels follow prescribed poses. Panel pickup and return use idealized kinematic attachments.",
+    "duration_s": 118.59999999999852,
+    "frames": 1174,
+    "sha256": "5cba3c884c567b621c93c20a4f8c56f120fb00926a6ee9cf7d966422700f8488"
+  },
+  "level5-2": {
+    "source": "work/level5_full/full_states_1.json",
+    "scope": "Four independent rigid cups with the Level 3 shell/rim geometry and mass. Radial wall compliance and air model disabled; panels follow prescribed poses. Panel pickup and return use idealized kinematic attachments.",
+    "duration_s": 118.59999999999852,
+    "frames": 1174,
+    "sha256": "e9f4143ce42bcd564a859a8c1628c069628fc636dd66c289c7c149e925d7f987"
+  },
+  "level5-3": {
+    "source": "work/level5_full/full_states_2.json",
+    "scope": "Four independent rigid cups with the Level 3 shell/rim geometry and mass. Radial wall compliance and air model disabled; panels follow prescribed poses. Panel pickup and return use idealized kinematic attachments.",
+    "duration_s": 118.59999999999852,
+    "frames": 1174,
+    "sha256": "aa994ec1b6cc5a22c92b1fe31e45356b9740f7612164067a98fac0ff0953648f"
   }
 }
