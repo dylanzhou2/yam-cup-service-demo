@@ -60,9 +60,6 @@ const sweepViewers=viewers.filter(v=>['level5-1','level5-2','level5-3'].includes
 document.querySelector('#playSweeps').onclick=async e=>{const button=e.currentTarget;button.disabled=true;try{await Promise.all(sweepViewers.map(v=>v.load()));const play=!sweepViewers.every(v=>v.playing);for(const v of sweepViewers){if(v.t>=v.b.duration)v.t=0;v.setPlaying(play)}button.textContent=play?'Ⅱ Pause all three':'▶ Play all three'}catch{button.textContent='Unable to load comparison'}finally{button.disabled=false}};
 document.querySelector('#resetSweeps').onclick=()=>{for(const v of sweepViewers){v.t=0;v.setPlaying(false);v.frame()}document.querySelector('#playSweeps').textContent='▶ Play all three'};
 
-const armSweeps=viewers.filter(v=>v.id.startsWith('level5-arms-'));
-document.querySelector('#playArmSweeps').onclick=async e=>{const button=e.currentTarget;button.disabled=true;try{await Promise.all(armSweeps.map(v=>v.load()));const play=!armSweeps.every(v=>v.playing);for(const v of armSweeps){if(v.t>=v.b.duration)v.t=0;v.setPlaying(play)}button.textContent=play?'Ⅱ Pause all three':'▶ Play all three'}catch{button.textContent='Unable to load comparison'}finally{button.disabled=false}};
-document.querySelector('#resetArmSweeps').onclick=()=>{for(const v of armSweeps){v.t=0;v.setPlaying(false);v.frame()}document.querySelector('#playArmSweeps').textContent='▶ Play all three'};
 // Keep off-screen replay canvases from exhausting the browser's WebGL contexts.
 function manageContexts(){
  for(const v of viewers){if(v.visible&&v.renderer&&v.contextSleeping){v.renderer.forceContextRestore();v.contextSleeping=false;}}
