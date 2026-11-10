@@ -4,3 +4,5 @@
 .height-section{grid-template-columns:1fr;gap:30px}.height-section .method>p{max-width:740px}.height-section .evidence p{max-width:740px}.height-grid .angle-label strong{font-size:32px}
 
 .full-four{margin-top:50px}.full-four>p{font-size:14px;line-height:1.8;color:var(--muted);max-width:760px}.full-four .canvas-wrap{height:480px}.full-four .evidence-note{font-size:11px}
+
+main > .demo-section:first-child{padding-top:36px}
