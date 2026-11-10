@@ -1,0 +1,942 @@
+{
+  "scope": "Contact-physics component test with prescribed panels and a rigid compound four-cup stack. Robot motions, tool grasp, individual cup slip and full Level 5 service are not validated. No capture walls.",
+  "ring_enabled": false,
+  "controller_reads_cup_pose": false,
+  "search_bounds_xy_m": [
+    [
+      -0.32,
+      0.3
+    ],
+    [
+      -0.12,
+      0.46
+    ]
+  ],
+  "target_xy_m": [
+    -0.12,
+    0.46
+  ],
+  "tolerance_mm": 10,
+  "trials": [
+    {
+      "start_xy_m": [
+        -0.32,
+        0.3
+      ],
+      "final_xy_m": [
+        -0.11500830266056343,
+        0.45980603346794885
+      ],
+      "error_mm": 4.9954644773128,
+      "max_tilt_deg": 0.02838388551882465,
+      "peak_single_contact_N": 0.32689333030469514,
+      "max_penetration_mm": 0.12902880872589875,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.32,
+        0.46
+      ],
+      "final_xy_m": [
+        -0.12017182392004695,
+        0.4597913681102128
+      ],
+      "error_mm": 0.27027897612741286,
+      "max_tilt_deg": 0.028249262458268663,
+      "peak_single_contact_N": 0.32689333155377703,
+      "max_penetration_mm": 0.12902880872664121,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.12,
+        0.3
+      ],
+      "final_xy_m": [
+        -0.1133980482148261,
+        0.45979450001308436
+      ],
+      "error_mm": 6.605149325971601,
+      "max_tilt_deg": 0.029514082696302766,
+      "peak_single_contact_N": 0.3357428550869711,
+      "max_penetration_mm": 0.13028548162534653,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.12,
+        0.46
+      ],
+      "final_xy_m": [
+        -0.11979733930365936,
+        0.46016070711131635
+      ],
+      "error_mm": 0.25864673488932344,
+      "max_tilt_deg": 0.008244585232763169,
+      "peak_single_contact_N": 0.2770655740484589,
+      "max_penetration_mm": 0.12902864155528807,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.22,
+        0.38
+      ],
+      "final_xy_m": [
+        -0.11739866723101204,
+        0.45979387633512997
+      ],
+      "error_mm": 2.60948637479294,
+      "max_tilt_deg": 0.027663975838539172,
+      "peak_single_contact_N": 0.33081584848635365,
+      "max_penetration_mm": 0.12902889473396054,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.15899941525092395,
+        0.429270526357839
+      ],
+      "final_xy_m": [
+        -0.11945936197455284,
+        0.45978744653202946
+      ],
+      "error_mm": 0.5809203485037409,
+      "max_tilt_deg": 0.022705801038428064,
+      "peak_single_contact_N": 0.3350603025949118,
+      "max_penetration_mm": 0.1290289384067204,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.2169348877915716,
+        0.34572822081410265
+      ],
+      "final_xy_m": [
+        -0.1174349900114506,
+        0.45980237473147956
+      ],
+      "error_mm": 2.572611900018343,
+      "max_tilt_deg": 0.03053360240635585,
+      "peak_single_contact_N": 0.35179911169410233,
+      "max_penetration_mm": 0.12902864430882505,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.3092138595236687,
+        0.36133902092568293
+      ],
+      "final_xy_m": [
+        -0.11703794310626112,
+        0.45979423396252367
+      ],
+      "error_mm": 2.9691952956861454,
+      "max_tilt_deg": 0.027227818610729,
+      "peak_single_contact_N": 0.3448149017522451,
+      "max_penetration_mm": 0.1290289383972939,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.23830535891600027,
+        0.30724403102439124
+      ],
+      "final_xy_m": [
+        -0.11525141542246109,
+        0.4597956124027066
+      ],
+      "error_mm": 4.752981146603437,
+      "max_tilt_deg": 0.02920520510451525,
+      "peak_single_contact_N": 0.33115483167628473,
+      "max_penetration_mm": 0.12902889473396054,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    },
+    {
+      "start_xy_m": [
+        -0.3102484578545664,
+        0.45986817841041144
+      ],
+      "final_xy_m": [
+        -0.12017775522201922,
+        0.4606317355216114
+      ],
+      "error_mm": 0.6562672384179445,
+      "max_tilt_deg": 0.025900237283479028,
+      "peak_single_contact_N": 0.34060904932659136,
+      "max_penetration_mm": 0.12902880872664121,
+      "speed_m_s": 0.02,
+      "friction": 0.45,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "arm_reach": {
+    "all_reachable": true,
+    "scope": "IK endpoint reachability only; not collision-checked arm motion or a physical tool grasp.",
+    "checks": [
+      {
+        "time": 0.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.0997916499485508e-05,
+        "orientation_rad": 3.379772574563884e-06
+      },
+      {
+        "time": 0.0,
+        "side": "right",
+        "success": true,
+        "position_m": 2.3029380865078454e-05,
+        "orientation_rad": 3.147873035678195e-05
+      },
+      {
+        "time": 0.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.702644295174742e-07,
+        "orientation_rad": 5.16191365590357e-08
+      },
+      {
+        "time": 0.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.3167387406590714e-07,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 1.0,
+        "side": "left",
+        "success": true,
+        "position_m": 3.50522543915591e-09,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 1.0,
+        "side": "right",
+        "success": true,
+        "position_m": 8.034131245024532e-10,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 1.5,
+        "side": "left",
+        "success": true,
+        "position_m": 1.7947450732654253e-05,
+        "orientation_rad": 5.924743665635757e-06
+      },
+      {
+        "time": 1.5,
+        "side": "right",
+        "success": true,
+        "position_m": 4.942321724936939e-12,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 2.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.0315444868764745e-05,
+        "orientation_rad": 6.945699614425879e-06
+      },
+      {
+        "time": 2.0,
+        "side": "right",
+        "success": true,
+        "position_m": 3.058835117363164e-14,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 2.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.19708078521764e-05,
+        "orientation_rad": 7.532916504016863e-06
+      },
+      {
+        "time": 2.5,
+        "side": "right",
+        "success": true,
+        "position_m": 2.9278084220930115e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 3.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.2836322043260836e-05,
+        "orientation_rad": 7.839257173851748e-06
+      },
+      {
+        "time": 3.0,
+        "side": "right",
+        "success": true,
+        "position_m": 2.0963300638213755e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 3.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.360936516250031e-05,
+        "orientation_rad": 8.114390352207039e-06
+      },
+      {
+        "time": 3.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.3023791032040279e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 4.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.4271680158786353e-05,
+        "orientation_rad": 8.351725320837329e-06
+      },
+      {
+        "time": 4.0,
+        "side": "right",
+        "success": true,
+        "position_m": 2.471006881506729e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 4.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.481408136036066e-05,
+        "orientation_rad": 8.548072906261068e-06
+      },
+      {
+        "time": 4.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.6199010924212654e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 5.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.5229592337996315e-05,
+        "orientation_rad": 8.700644980020655e-06
+      },
+      {
+        "time": 5.0,
+        "side": "right",
+        "success": true,
+        "position_m": 2.0065884705102253e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 5.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.5512869533510423e-05,
+        "orientation_rad": 8.807556930721513e-06
+      },
+      {
+        "time": 5.5,
+        "side": "right",
+        "success": true,
+        "position_m": 8.565499087032966e-17,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 6.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.5659939069955768e-05,
+        "orientation_rad": 8.86723017414729e-06
+      },
+      {
+        "time": 6.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.2653972470436706e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 6.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.5669665191055918e-05,
+        "orientation_rad": 8.879091690414053e-06
+      },
+      {
+        "time": 6.5,
+        "side": "right",
+        "success": true,
+        "position_m": 2.2409889783700935e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 7.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.554326235136765e-05,
+        "orientation_rad": 8.843308761719546e-06
+      },
+      {
+        "time": 7.0,
+        "side": "right",
+        "success": true,
+        "position_m": 3.4433714796239645e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 7.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.5284333899628172e-05,
+        "orientation_rad": 8.7610464524374e-06
+      },
+      {
+        "time": 7.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.597930103913107e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 8.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.489886978551568e-05,
+        "orientation_rad": 8.633959627836144e-06
+      },
+      {
+        "time": 8.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.1768344115781112e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 8.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.439521304164698e-05,
+        "orientation_rad": 8.46472525033661e-06
+      },
+      {
+        "time": 8.5,
+        "side": "right",
+        "success": true,
+        "position_m": 2.2985086056692694e-17,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 9.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.378401242434866e-05,
+        "orientation_rad": 8.256668740701678e-06
+      },
+      {
+        "time": 9.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.1150322259817053e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 9.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.30781871775852e-05,
+        "orientation_rad": 8.013749729431977e-06
+      },
+      {
+        "time": 9.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.1911074871098922e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 10.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.2292942173247155e-05,
+        "orientation_rad": 7.740834127932099e-06
+      },
+      {
+        "time": 10.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.3294140252491318e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 10.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.144589067550792e-05,
+        "orientation_rad": 7.443185951423676e-06
+      },
+      {
+        "time": 10.5,
+        "side": "right",
+        "success": true,
+        "position_m": 2.581782019950784e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 11.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.33149308768782e-05,
+        "orientation_rad": 7.811136961468553e-06
+      },
+      {
+        "time": 11.0,
+        "side": "right",
+        "success": true,
+        "position_m": 3.126141248597492e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 11.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.725396113148139e-07,
+        "orientation_rad": 4.712160915387242e-08
+      },
+      {
+        "time": 11.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.6916055710755126e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 12.0,
+        "side": "left",
+        "success": true,
+        "position_m": 3.5963927161075746e-09,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 12.0,
+        "side": "right",
+        "success": true,
+        "position_m": 2.688821387764051e-17,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 12.5,
+        "side": "left",
+        "success": true,
+        "position_m": 4.753742526655234e-11,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 12.5,
+        "side": "right",
+        "success": true,
+        "position_m": 3.0379411021134125e-05,
+        "orientation_rad": 1.7388754891454143e-05
+      },
+      {
+        "time": 13.0,
+        "side": "left",
+        "success": true,
+        "position_m": 6.286322962746916e-13,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 13.0,
+        "side": "right",
+        "success": true,
+        "position_m": 3.3314535060551414e-05,
+        "orientation_rad": 1.466477169765234e-05
+      },
+      {
+        "time": 13.5,
+        "side": "left",
+        "success": true,
+        "position_m": 8.16490537844593e-15,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 13.5,
+        "side": "right",
+        "success": true,
+        "position_m": 7.537435215312257e-05,
+        "orientation_rad": 2.1521837439763188e-05
+      },
+      {
+        "time": 14.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.8441001681421824e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 14.0,
+        "side": "right",
+        "success": true,
+        "position_m": 3.0648991327184105e-06,
+        "orientation_rad": 7.453560233354621e-07
+      },
+      {
+        "time": 14.5,
+        "side": "left",
+        "success": true,
+        "position_m": 3.387999773988765e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 14.5,
+        "side": "right",
+        "success": true,
+        "position_m": 5.15886034680227e-06,
+        "orientation_rad": 1.1812401522760133e-06
+      },
+      {
+        "time": 15.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.830524433501838e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 15.0,
+        "side": "right",
+        "success": true,
+        "position_m": 8.62640550594633e-06,
+        "orientation_rad": 1.8262283444232534e-06
+      },
+      {
+        "time": 15.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.0770370905276122e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 15.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.3039532917191016e-05,
+        "orientation_rad": 2.560052452386631e-06
+      },
+      {
+        "time": 16.0,
+        "side": "left",
+        "success": true,
+        "position_m": 1.415262216750919e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 16.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.8653824985990203e-05,
+        "orientation_rad": 3.40712370563381e-06
+      },
+      {
+        "time": 16.5,
+        "side": "left",
+        "success": true,
+        "position_m": 1.0385185452638061e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 16.5,
+        "side": "right",
+        "success": true,
+        "position_m": 2.583269227145114e-05,
+        "orientation_rad": 4.402580794618895e-06
+      },
+      {
+        "time": 17.0,
+        "side": "left",
+        "success": true,
+        "position_m": 1.1775693440128312e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 17.0,
+        "side": "right",
+        "success": true,
+        "position_m": 0.00018027149754316484,
+        "orientation_rad": 3.938087383261227e-05
+      },
+      {
+        "time": 17.5,
+        "side": "left",
+        "success": true,
+        "position_m": 1.4946834900704541e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 17.5,
+        "side": "right",
+        "success": true,
+        "position_m": 9.693790245273617e-06,
+        "orientation_rad": 2.0920084041594963e-06
+      },
+      {
+        "time": 18.0,
+        "side": "left",
+        "success": true,
+        "position_m": 1.0385185452638061e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 18.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.4974917915469455e-05,
+        "orientation_rad": 3.0157829858489777e-06
+      },
+      {
+        "time": 18.5,
+        "side": "left",
+        "success": true,
+        "position_m": 1.2719202621569003e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 18.5,
+        "side": "right",
+        "success": true,
+        "position_m": 2.7106240376033336e-05,
+        "orientation_rad": 4.868143453483617e-06
+      },
+      {
+        "time": 19.0,
+        "side": "left",
+        "success": true,
+        "position_m": 2.7476618026966064e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 19.0,
+        "side": "right",
+        "success": true,
+        "position_m": 0.000295830659684887,
+        "orientation_rad": 6.689113833854495e-05
+      },
+      {
+        "time": 19.5,
+        "side": "left",
+        "success": true,
+        "position_m": 3.040470972244059e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 19.5,
+        "side": "right",
+        "success": true,
+        "position_m": 2.9508841585733884e-05,
+        "orientation_rad": 5.467731303491485e-06
+      },
+      {
+        "time": 20.0,
+        "side": "left",
+        "success": true,
+        "position_m": 3.433175098891678e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 20.0,
+        "side": "right",
+        "success": true,
+        "position_m": 0.0002625701903504638,
+        "orientation_rad": 5.9421074095186e-05
+      },
+      {
+        "time": 20.5,
+        "side": "left",
+        "success": true,
+        "position_m": 2.830524433501838e-16,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 20.5,
+        "side": "right",
+        "success": true,
+        "position_m": 6.8671791588790585e-06,
+        "orientation_rad": 1.634922919922564e-06
+      },
+      {
+        "time": 21.0,
+        "side": "left",
+        "success": true,
+        "position_m": 6.206335383118183e-17,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 21.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.6436475504356903e-07,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 21.5,
+        "side": "left",
+        "success": true,
+        "position_m": 4.230232012521655e-05,
+        "orientation_rad": 1.4657911056224752e-05
+      },
+      {
+        "time": 21.5,
+        "side": "right",
+        "success": true,
+        "position_m": 6.3137399990318045e-06,
+        "orientation_rad": 2.2145151036685762e-06
+      },
+      {
+        "time": 22.0,
+        "side": "left",
+        "success": true,
+        "position_m": 1.5851824826876451e-06,
+        "orientation_rad": 4.754381219608774e-07
+      },
+      {
+        "time": 22.0,
+        "side": "right",
+        "success": true,
+        "position_m": 0.00017542094159214865,
+        "orientation_rad": 4.4078002556764554e-05
+      },
+      {
+        "time": 22.5,
+        "side": "left",
+        "success": true,
+        "position_m": 1.2759639363573241e-08,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 22.5,
+        "side": "right",
+        "success": true,
+        "position_m": 1.6943465226567735e-06,
+        "orientation_rad": 4.960094981519404e-07
+      },
+      {
+        "time": 23.0,
+        "side": "left",
+        "success": true,
+        "position_m": 1.425626246671189e-10,
+        "orientation_rad": 0.0
+      },
+      {
+        "time": 23.0,
+        "side": "right",
+        "success": true,
+        "position_m": 1.7691231336441232e-08,
+        "orientation_rad": 0.0
+      }
+    ]
+  },
+  "sampled_arm_collision_audit": {
+    "scope": "Sampled penetration audit on IK-interpolated arms over prescribed-panel contact replay; not continuous collision certification or physical tool grasp.",
+    "sample_count": 576,
+    "passed": true,
+    "violations": [],
+    "violation_count": 0
+  },
+  "sensitivity": {
+    "scope": "Sensitivity tests on the rigid-stack, prescribed-panel component model only.",
+    "trials": [
+      {
+        "start_xy_m": [
+          -0.12,
+          0.3
+        ],
+        "final_xy_m": [
+          -0.11935074673091778,
+          0.4599297866518345
+        ],
+        "error_mm": 0.6530388362682276,
+        "max_tilt_deg": 0.01566049174733371,
+        "peak_single_contact_N": 0.16462162316597798,
+        "max_penetration_mm": 0.12897184860309976,
+        "speed_m_s": 0.02,
+        "friction": 0.2,
+        "passed": true,
+        "table_friction": 0.2
+      },
+      {
+        "start_xy_m": [
+          -0.12,
+          0.3
+        ],
+        "final_xy_m": [
+          -0.11445910969244516,
+          0.45979546060571436
+        ],
+        "error_mm": 5.544664260725789,
+        "max_tilt_deg": 0.031595908564652095,
+        "peak_single_contact_N": 0.3480617416501086,
+        "max_penetration_mm": 0.17678133955594172,
+        "speed_m_s": 0.02,
+        "friction": 0.7,
+        "passed": true,
+        "table_friction": 0.7
+      },
+      {
+        "start_xy_m": [
+          -0.12,
+          0.3
+        ],
+        "final_xy_m": [
+          -0.113615274081909,
+          0.4598215845431229
+        ],
+        "error_mm": 6.387218261841038,
+        "max_tilt_deg": 0.014204885757078558,
+        "peak_single_contact_N": 0.16267769518303232,
+        "max_penetration_mm": 0.1289895970047613,
+        "speed_m_s": 0.01,
+        "friction": 0.45,
+        "passed": true,
+        "table_friction": 0.45
+      },
+      {
+        "start_xy_m": [
+          -0.12,
+          0.3
+        ],
+        "final_xy_m": [
+          -0.11913030845709145,
+          0.4599752403662197
+        ],
+        "error_mm": 0.8700439180130964,
+        "max_tilt_deg": 0.0283206208703601,
+        "peak_single_contact_N": 0.348253209465649,
+        "max_penetration_mm": 0.1289895970047613,
+        "speed_m_s": 0.04,
+        "friction": 0.45,
+        "passed": true,
+        "table_friction": 0.45
+      }
+    ],
+    "passed": true
+  }
+}

@@ -65,5 +65,12 @@
     "duration_s": 115.32536270715187,
     "frames": 881,
     "sha256": "1d18c3595aeab69f8ce9f89789f8b8ac8639dd939169081ad48bd83eccec59ad"
+  },
+  "level5": {
+    "source": "work/level5_sweep/arm_bundle.json",
+    "scope": "Experimental hybrid: prescribed-panel contact physics on a rigid compound four-cup stack; IK arm replay with sampled penetration checks. Starts with tools held. No tool grasp, docking, individual cup slip, continuous collision or full service validation.",
+    "duration_s": 23.0,
+    "frames": 652,
+    "sha256": "a2db63bab85d7b1cd60a55c8fac7177cf325d11278937945061375792e555192"
   }
 }
