@@ -6,3 +6,5 @@
 .full-four{margin-top:50px}.full-four>p{font-size:14px;line-height:1.8;color:var(--muted);max-width:760px}.full-four .canvas-wrap{height:480px}.full-four .evidence-note{font-size:11px}
 
 main > .demo-section:first-child{padding-top:36px}
+
+.method h2,.four-heading h2,.full-four h2,.closing h2{font-size:clamp(25px,2.2vw,32px);line-height:1.25;letter-spacing:-.6px}
